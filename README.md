@@ -1,27 +1,27 @@
 # Automation Test for OrangeHRM Demo
 
 Proyek ini berisi automation testing menggunakan **Cypress** pada website [OrangeHRM Demo](https://opensource-demo.orangehrmlive.com/).  
-Testing mencakup fitur **Login**, **Forgot Password**, serta menu **Dashboard (Directory)**.  
+Testing mencakup fitur **Login**, **Forgot Password**, serta menu **Directory**.  
 Struktur menggunakan **Page Object Model (POM)** dan **Intercept** untuk pengujian API.  
 
 ---
 
-## 📂 Struktur Proyek
+## Structure
 
 ```
 cypress/
  ├── e2e/
- │     ├── LoginPage.cy.js
- │     ├── ForgotPasswordPage.cy.js
- │     └── DirectoryPage.cy.js
+ │     ├── Login.cy.js
+ │     ├── ForgotPassword.cy.js
+ │     └── Directory.cy.js
  ├── fixtures/
  │     ├── LoginData.json
  │     ├── ForgotPasswordData.json
  │     └── DirectoryData.json
  ├── Pages/
- │     ├── LoginPage.cy.js
- │     ├── ForgotPasswordPage.cy.js
- │     └── DirectoryPage.cy.js
+ │     ├── LoginPage.js
+ │     ├── ForgotPasswordPage.js
+ │     └── DirectoryPage.js
  └── fixtures/
        ├── commands.js
        └── e2e.js
@@ -29,7 +29,7 @@ cypress/
 
 ---
 
-## 🚀 Fitur yang Diuji
+## Fitur yang Diuji
 
 1. **Login**
    - Valid login (username & password benar)
@@ -59,7 +59,7 @@ cypress/
 
 ---
 
-## 📦 Instalasi
+## Instalasi
 
 1. Clone repository ini:
    ```bash
