@@ -22,7 +22,7 @@ cypress/
  │     ├── LoginPage.js
  │     ├── ForgotPasswordPage.js
  │     └── DirectoryPage.js
- └── fixtures/
+ └── Support/
        ├── commands.js
        └── e2e.js
 ```
@@ -53,7 +53,7 @@ cypress/
 
 ## 🛠️ Tools
 
-- Cypressuntuk end-to-end testing
+- Cypress untuk end-to-end testing
 - Page Object Model (POM) untuk struktur test lebih rapi
 - Cypress Intercept untuk memantau request API
 
